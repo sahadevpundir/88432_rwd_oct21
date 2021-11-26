@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{-ms-overflow-style:scrollbar;-webkit-overflow-style:scrollbar;height:100%;overflow-y:scroll;}
+
+body {
+    color: whitesmoke;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-right: 400px;
+    position: absolute;
+    right: 30px;
+    color: #9ca3af;
+    border-style: none;
+}
+
+.search>input {
+    flex: 1;
+    height: 40px;
+    font-size: 13px;
+    padding-right: 10px;
+    width: 600px;
+    border-radius: 1vmin;
+}
+
+.search>i {
+    margin-left: -40px;
+}
+
+@media only screen and (min-width : 500px) and (max-width : 1000px) {
+    .search {
+    height: 40px;
+    width: 50px;
+    background:none;
+    outline: none;
+    border:0px solid #000;
+    color:#333;
+    padding:0 10px;
+    font-size: 17px;
+    position: relative;
+    bottom: 10px;
+
+    }
+
+    .icon {
+    height: 40px;
+    width: 60px;
+    color:#000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+    }
+
+    .side2 {
+        display: block;
+        float: right;
+        margin-top: -320px;
+        margin-bottom: 0 auto;
+    }
+
+    .menu-bar  {
+        position: relative;
+        right: 0;
+        top: 0
+    }
+
+    .nav2 {
+        position: relative;
+        scroll-margin-right: 10px;
+        float: right;
+    }
+
+    .nav2-label {
+        position: relative;
+        float: right;
+    }
+
+}
+
+.side2 {
+    display: flex;
+    position: relative;
+    float: left;
+    top: 14px;
+}
+
+.side2 p {
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+#name {
+    height: 20px;
+    width: 20px;
+    background: rgb(48, 102, 163);
+    border: none;
+    margin-left: 10px;
+    /* border: 2px solid; */
+    border-radius: 5px;
+    color: white;
+}
+
+h3 {
+    background-color: rgb(12, 12, 95);
+    color: white;
+    font-size: medium;
+
+}
+
+.card {
+    margin-left: 50px;
+    margin-top: 90px;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    margin-left: 40px;
+}
+
+.img {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% -50px);
+    margin-top: -70px;
+    margin-left: 80px;
+    border: 3px solid gray;
+}
+
+.fa-camera {
+    margin-left: 180px;
+}
+
+.card-body {
+    margin-top: 30px;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 15px;
+    margin-left: 30px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.form i {
+    position: absolute;
+    margin-top: -30px;
+    font-size: 20px;
+    border: rgb(214, 212, 212);
+    border-radius: 200%;
+}
+
+h6 {
+    margin-left: 40px;
+
+}
+
+.fa-pencil {
+    margin-left: 233px;
+    outline: none;
+}
+
+.fa-plus-circle {
+    margin-left: 233px;
+}
+
+.fa-id-card {
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.hr {
+    width: 100%;
+}
+
+.nav2 {
+    background-color: rgb(176, 215, 240);
+    position: relative;
+}
+
+.card-title2 {
+    margin-top: 15px;
+}
+
+.fa-id-card-o,
+.fa-sitemap,
+.fa-info-circle,
+.fa-phone-square,
+.fa-ambulance {
+    margin-top: -33px;
+    padding-left: 10px;
+}
+
+.Details,
+.information,
+.contact {
+    margin-bottom: 20px;
+    color: lightgray;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.text {
+    color: black;
+    line-height: .5px;
+    font-size: 13px;
+}
+
+.row {
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+#lock {
+    margin-left: 250px;
+    margin-top: -26px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+ul li {
+    color: black;
+    list-style-type: square;
+    margin-left: 50px;
+}
+
+.contact input[type="text"] {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 15px;
+    margin-left: 30px;
+    width: 200px;
+
+}
+
+.fa-lock {
+    float: right;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+
+.h5 {
+    border-bottom: solid 1px #ddd;
+
+}
+
+.p {
+    font-size: 10px;
+}
+
+.information {
+    margin-top: -15px;
+}
+
+.fa-user-o {
+    margin-left: -5px;
+}
+
+footer {
+    background-color: rgb(12, 12, 70);
+    text-align: center;
+    font-size: medium;
+    color: white;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav2 {
+    width: 60rem;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: rgb(198, 229, 248);
+    height: 4rem;
+    text-align: center;
+    font-size: 12px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+#dvResume{
+    background-color:#00a6d6;
+    padding:6px;
+    font-size:13px;
+    color:#fff;
+    float:right;
+}
+#dvResume:hover{background-color:#003d63}
+.profile label {
+    color: #000;
+}
+
+.nav2 label {
+    margin-top: 20px;
+}
+
+.images img {
+    border-radius: 50%;
+}
+
+.fa-bell-o,
+.fa-calendar-o,
+.ind {
+    position: relative;
+    left: 250px;
+    bottom: 0px;
+}
+
+#dropdown,
+#user {
+    position: relative;
+    left: 870px;
+    bottom: 80px;
+}
+
+.fa-file {
+    margin-left: -130px;
+}
+
+#dropdown {
+    width: 30px;
+    color: white;
+}
+
+.menu-bar {
+    display: inline;
+    background-color: white;
+    margin-left: 200px;
+}
+
+#dropdown-menu {
+    font-size: 12px;
+    background-color: white (134, 36, 36);
+}
+
+#dropdownMenuLink {
+    font-size: 12px;
+    background: rgb(221, 221, 221);
+    color: black;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1200px){.mn-header .container,
+    .alerts .container,
+    .ann-even .container,
+    .mn-leadership .container,
+    .appreciation .container,
+    .mn-birthday .container,
+    .mn-community .container,
+    .ms-rtestate-field .container,
+    .container{width:90%}
+    .mn-header .container{width:87.8%}
+    .announcement h3,
+    .event h3,
+    .mn-leadership h3,
+    .tis h3,
+    .innerpage-right h3,
+    .mn-recentnews h3,
+    .poll h3,
+    div#community-posts h3,
+    .mn-recentnews h3,
+    .poll h3,
+    div#community-posts h3{font-size:18px}
+    .event ul li span i{float:right}
+    .mn-global-search{width:51%}
+    li.new-joinee-open .col-sm-2{width:29%}
+    .sticky-open ul li.new-joinee-open.right{right:-13%}
+    .appreciation .col-sm-2{padding:10px 0}
+    .poll img{width:96%}
+    .mn-community-textblock p{min-height:60px;padding:5px 1% 0 12%}
+    }
+    @media screen and (max-width:1126px){.mn-global-search{width:52%}
+    .mn-header-icons li{padding:2px 6px}
+    .appreciation h3 span.icon-like{padding-right:10px}
+    }
+    @media screen and (max-width:1024px){.mn-header .container,
+    .alerts .container,
+    .ann-even .container,
+    .mn-leadership .container,
+    .appreciation .container,
+    .mn-birthday .container,
+    .mn-community .container,
+    .ms-rtestate-field .container,
+    .container{width:95%}
+    .mn-alert-container .alerts .text-danger{padding:5px 0 10px 10px}
+    .appreciation h3 span.icon-like{padding-right:10px}
+    .mn-praise-div{margin:10px 0}
+    .mn-global-search{width:50%}
+    .sticky-open{width:50%;right:-50%}
+    .sticky-open-right{right:40px}
+    .sticky-open ul li.new-joinee-open.right{right:-40%}
+    div#SearchBox input{width:90%}
+    .mn-alert-container .alerts .text-danger{width:11%}
+    .alerts .bx-wrapper{width:85%;padding:5px 0!important;float:left}
+    .text-thumbnail-pointer .thumbnail-scroller.horizontal{bottom:0;}
+    .mn-global-search{width:40%}
+    .announcement h3,
+    .event h3,
+    .mn-leadership h3,
+    .tis h3,
+    .innerpage-right h3{padding:15px 10px;font-size:16px;padding-right:0}
+    div#dvPraise1,
+    div#dvPraise2{padding:0 25px}
+    .mn-recentnews-textblock h5{font-size:12px}
+    li.new-joinee-open .col-sm-2{width:20%}
+    .advanced-slider .slide .image{height:30vh !important;width:100%!important;max-height:100%!important;}
+    }
+    @media screen and (max-width:991px){.mn-global-search{width:50%}
+    .mn-praise-img{margin:5px}
+    .mn-user-box.dropdown{width:18%}
+    .mn-global-search{width:33%}
+    .mn-header-icons li{padding:2px 9px}
+    .bg-img{background-size:inherit}
+    .mn-alert-container .alerts .text-danger{width:10%}
+    #marquee.col-sm-11{width:84%}
+    .tis{width:100%}
+    .mn-community-textblock p{padding:5px 10% 0 8%;min-height:0}
+    .person-img{padding:0}
+    .event ul li span,
+    .innerpage-right ul li span{display:initial;float:right}
+    div#SearchBox input{width:83%}
+    .alerts .bx-wrapper{width:73%}
+    .mn-recentnews-textblock h5{height:auto}
+    .tis{height:auto}
+    .innerpage-right ul{height:auto;margin:0 20px 40px}
+    .poll.col-sm-6{min-height:320px}
+    .mn-community-textblock span.person-img{font-size:18px}
+    .mn-community .mn-button-div,
+    .poll .btn.mn-btn,
+    .mn-recentnews .btn.mn-btn{left:30%}
+    div#dvPraise1,
+    div#dvPraise2{padding:0 10px}
+    .announcement h3 a,
+    .event h3 a,
+    .mn-leadership h3 a,
+    .tis h3 a,
+    .innerpage-right h3 a,
+    .mn-recentnews h3 a,
+    div#community-posts h3 a,
+    .poll h3{font-size:15px}
+    .announcement ul,
+    .event ul,
+    .innerpage-right ul{margin:20px 10px 0}
+    .mn-leadership-inner-block h4{font-size:13px;min-height:0}
+    .innerpage-right{width:100%}
+    }
+    @media screen and (max-width:980px){.advanced-slider{height:50vh!important}
+    .slide .button-div{top:51%}
+    .advanced-slider .thumbnail-scroller .thumbnails-visible-container{width:100%!important}
+    .announcement ul li,
+    .event ul li{margin:0 0 12px;font-size:12px}
+    div#owl-leadership p{padding:0 10%}
+    .sticky-open{width:60%;right:-60%}
+    .sticky-open-right{right:40px}
+    .mn-recentnews-textblock p,
+    .mn-recentnews-textblock h5,
+    .mn-recentnews-textblock span.pull-right{padding-right:20px}
+    .mn-recentnews-textblock h5{margin-bottom:5px}
+    .mn-birthday .bx-wrapper .bx-controls-direction a{right:10px}
+    .mn-birthday .bx-wrapper .bx-controls-direction a.bx-prev{left:10px}
+    .advanced-slider .thumbnail-scroller .thumbnails-container{position:static;text-align:center}
+    .advanced-slider .thumbnail-wrapper{display:inline-block;position:static}
+    }
+    @media screen and (max-width:900px){.text-thumbnail-pointer .thumbnail-scroller.horizontal{display:none}
+    #marquee.col-sm-11{width:80%}
+    .appreciation h3 span.icon-like{padding-left:0}
+    .appreciation h3{font-size:16px}
+    .advanced-slider{height:30vh!important}
+    .slide .button-div{top:60%}
+    .tis{width:100%}
+    .innerpage-right{width:100%;margin-top:20px}
+    .mn-leadership .owl-prev{left:0}
+    .mn-leadership .owl-next{right:0}
+    .item > .col-md-6{width:100%}
+    #recent-news .owl-item img{display:none}
+    div#recent-news .owl-prev,
+    div#recent-news .owl-next{left:inherit;right:80px}
+    div#recent-news .owl-next{right:30px}
+    .mn-recentnews-textblock span.pull-right{float:left!important;padding:0 0 0 20px}
+    .mn-recentnews-textblock h5{text-align:left}
+    .mn-header-icons{float:none!important;clear:both;margin:0}
+    .profile-dot{display:block}
+    .mn-header-icons{display:none;float:none!important;background:#fff;padding:3px;position:absolute;right:0;top:90%;width:50px}
+    .dd .arrow{display:none}
+    #feedbackPopup .modal-body{width:95%}
+    .advanced-slider .slides{height:100%}
+    .event h3 span,
+    .mn-leadership h3 span,
+    .innerpage-right h3 span{padding-right:5px}
+    .mn-leadership-inner-block h4,
+    .announcement h3 a,
+    .event h3 a,
+    .mn-leadership h3 a,
+    .tis h3 a,
+    .innerpage-right h3 a,
+    .mn-recentnews h3 a,
+    div#community-posts h3 a,
+    .poll h3{font-size:14px}
+    .mn-leadership-inner-block h4{min-height:30px}
+    .appreciation .container{padding:20px 0}
+    .profile-dot{margin:6px 0 0;color:#6e7171}
+    }
+    @media screen and (max-width:800px){.announcement,
+    .event,
+    .mn-recentnews,
+    .mn-leadership,
+    .mn-community,
+    .poll.col-sm-6{width:100%;height:auto;vertical-align:middle;margin-top:-5px}
+    .mn-leadership{margin:2% 0}
+    .mn-community{margin:0}
+    .announcement .mn-btn,
+    .event .btn.mn-btn,
+    .mn-recentnews .btn.mn-btn,
+    .mn-community .mn-button-div,
+    .poll .btn.mn-btn,
+    .mn-recentnews .btn.mn-btn{position:static}
+    .announcement h3 span,
+    .event h3 span,
+    .mn-leadership h3 span,
+    .innerpage-right h3 span{vertical-align:middle;margin-top:-5px}
+    .announcement h3,
+    .event h3,
+    .mn-leadership h3,
+    .tis h3,
+    .innerpage-right h3{padding:15px 20px}
+    .announcement ul,
+    .event ul,
+    .innerpage-right ul{margin:20px 20px 0}
+    .mn-leadership,
+    .mn-community{min-height:0}
+    .appreciation .col-sm-3{width:100%;padding:0 0 0 10px;border-bottom:1px solid #205677;margin-bottom:15px}
+    .appreciation .container{padding:0}
+    .mn-leadership-inner-block h4,
+    .announcement h3 a,
+    .event h3 a,
+    .mn-leadership h3 a,
+    .tis h3 a,
+    .innerpage-right h3 a,
+    .mn-recentnews h3 a,
+    div#community-posts h3 a,
+    .poll h3{font-size:18px}
+    .appreciation .col-md-3 img{margin:10px 15px 10px 10px}
+    .appreciation h3{margin:13px 0 0;font-size:18px}
+    div#dvPraise1,
+    div#dvPraise2{padding:0 20px;width:50%}
+    .appreciation img,
+    .appreciation .mn-praise-svg{margin:0 20px 10px 0}
+    .mn-community .mn-button-div,
+    .mn-community .mn-button-div a,
+    .poll .btn.mn-btn,
+    .mn-recentnews .btn.mn-btn{margin:20px auto;display:block}
+    .mn-community .mn-button-div{margin:0 auto}
+    .mn-community-textblock span.person-img{font-size:20px;margin:0 11px}
+    .poll.col-sm-6{min-height:0;margin:2% 0}
+    div#pollDisplay{height:auto!important}
+    .mn-praise-div{margin:0}
+    div#owl-leadership p{padding:0 10% 10px}
+    .mn-recentnews-textblock p,
+    .mn-recentnews-textblock h5,
+    .mn-recentnews-textblock span.pull-right{padding:0 10px}
+    }
+    @media screen and (max-width:768px){.mainAppreciation{padding:0 0 20px;width:100%}
+    .appreciation h3 span{padding:0}
+    .appreciation .col-sm-5{width:50%}
+    li.new-joinee-open .col-sm-2,
+    li.favlinks-open .col-sm-2{float:left}
+    .slide h1{font-size:35px}
+    .appreciation .col-sm-2,
+    .appreciation .col-sm-5{width:100%}
+    .line:after{border:0}
+    .mn-praise-div{padding:0;display:block}
+    .mn-leadership .bx-wrapper .bx-viewport{width:100%!important;margin:0 auto}
+    .mn-global-search{width:47%}
+    .announcement,
+    .mn-leadership,
+    .event{width:100%;min-height:0;height:auto;margin:0 0 10px}
+    .announcement ul,
+    .event ul{margin:10px 20px}
+    .ann-even{padding:10px 0 0}
+    .appreciation div.col-md-5{padding:0}
+    .mn-header-icons{width:40px;right:-10px}
+    }
+    @media screen and (max-width:767px){.slide .button-div{top:80%}
+    body.drawer{margin-top:50px}
+    .appreciation .col-sm-5{width:50%;float:left;padding:0}
+    .slide .button-div{top:58%}
+    .mn-user-box.dropdown{float:left!important}
+    .mn-global-search{width:30%}
+    .mn-header{height:auto}
+    .mn-user-box.dropdown{margin:12px 0 0}
+    .drawer--left .drawer-hamburger{padding:24px 25px}
+    .mn-global-search{margin:8px 0 0}
+    .mn-logo img{margin:3px 16px 0}
+    .mn-user-box.dropdown{width:auto;padding:5px 15px}
+    ul.user-details{right:inherit;left:28%;top:69%}
+    .item .col-md-5{float:none!important}
+    div#recent-news .owl-prev,
+    div#recent-news .owl-next{right:10%;left:inherit}
+    div#recent-news .owl-next{right:4%}
+    .mn-alert-container .alerts .text-danger{width:100%;border:0;border-bottom:1px solid rgba(255, 255, 255, 0.23)}
+    .slide .button-div{left:39%}
+    button.icon-magnifier{padding:15px 15px 16px;top:-8px;color:#6e7072;background:#e5e9ec;right:0}
+    ul.user-details{right:inherit;left:44%;top:100%}
+    .mn-recentnews{margin-bottom:2%}
+    div#recent-news .mn-button-div{position:static}
+    .mn-community-textblock p{padding:5px 10% 0 0}
+    .mn-community-textblock h5{margin:0 20px 0 0}
+    .appreciation .col-sm-5 img{margin:18px 10px 0 0}
+    .container,
+    .mn-leadership,
+    .ann-even .container{padding:0}
+    .mn-logo img{margin:13px 14px 0}
+    #marquee.col-sm-11{width:100%;padding:3px 5px 10px}
+    .mn-alert-container .owl-carousel .owl-item{padding:0}
+    .mn-alert-container .alerts i.fa-flag-o{margin:10px 10px 0 0}
+    .alerts button.close{right:20px}
+    .alerts .bx-wrapper,
+    .mn-leadership .bx-wrapper{max-width:100%!important;padding:5px 0!important}
+    .mn-community-textblock span.pull-right{padding:0}
+    .mn-leadership .bx-wrapper img{max-width:130px}
+    .mn-global-search.pull-left{width:36px;position:absolute;background:#fff;right:7%;border-radius:6px;z-index:99;transition:all .5s ease-in;-webkit-transition:all .5s ease-in}
+    div#SearchBox input{width:92%;position:absolute;opacity:0;transition:all .5s ease-in;-webkit-transition:all .5s ease-in}
+    .mn-global-search.pull-left.open{width:66%;box-shadow:-8px 3px 16px -1px #ccc;transition:all .5s ease-in;-webkit-transition:all .5s ease-in}
+    div#SearchBox input.open{opacity:1}
+    div#SearchBox .ms-srch-sb > .ms-srch-sb-searchLink{float:right;margin:0 4px 0 0}
+    div#SearchBox{height:32px}
+    div#SearchBox input{padding:0!important}
+    div.ms-qSuggest-container{margin:30px 0 0 5px !important;background-color:#eee}
+    div#s4-workspace div.container{overflow:scroll}
+    .appreciation h3,
+    .appreciation .col-md-3 img{display:inline-block;float:none}
+    div#dvPraise1,
+    div#dvPraise2{clear:left;width:100%}
+    .mn-birthday .bx-wrapper .bx-controls-direction a.bx-prev{left:30px}
+    .mn-birthday .bx-wrapper .bx-controls-direction a{right:30px}
+    }
+    @media screen and (max-width:732px){.slide .button-div{top:74%}
+    .sticky-open{width:80%}
+    .mn-leadership-inner-block h4{font-size:16px}
+    .sticky-open{right:-80%}
+    ul.drawer-menu{height:320px}
+    .sticky-open.sticky-open-right{right:40px}
+    }
+    @media screen and (max-width:680px){.sticky-open{width:80%}
+    div#recent-news .owl-prev,
+    div#recent-news .owl-next{right:10%}
+    div#recent-news .owl-next{right:15px}
+    #recent-news .owl-item img{display:none}
+    .advanced-slider{height:40vh!important}
+    .appreciation .col-sm-5{width:100%;float:none;display:block;clear:both}
+    .appreciation .col-sm-5 img{margin:0 10px 0 0}
+    .feedbackComment textarea{margin:0 10px}
+    ul.user-details{left:7%}
+    .container,
+    .mn-leadership,
+    .ann-even .container{padding:0}
+    }
+    @media screen and (max-width:640px){.sticky,
+    .sticky-open{top:50%}
+    }
+    @media screen and (max-width:568px){.sticky-open{width:90%}
+    }
+    @media screen and (max-width:500px){.mn-alert-container .alerts .text-danger{width:90%;border:none;padding:5px 12px 0}
+    #marquee.col-sm-11{width:100%;margin:0;border-top:1px solid #9a9696}
+    .mn-praise-img{margin:0 10px 0 0}
+    div#divpraise1 p{padding:10px 0 0}
+    .mn-praise-div{margin:0 0 10px}
+    .slide h1{font-size:25px}
+    .mn-birthday .bx-wrapper .bx-controls-direction a.bx-prev{left:20px}
+    .mn-birthday .bx-wrapper .bx-controls-direction a{right:20px}
+    .mn-global-search{width:40%}
+    .feedbackComment{width:100%!important}
+    .mn-community-textblock span.person-img{margin:0 11px 0 0}
+    }
+    @media screen and (max-width:480px){li.new-joinee-open span.icon-oet{font-size:11px;padding:12px 10px 12px 8px;}
+    .sticky-open li,.download-open li,.corporate-open li{transition:inherit;}
+    .resp-tab-content{padding:0}
+    .sticky{position:fixed;width:100%;bottom:0;top:inherit;z-index:99999;height:50px}
+    .sticky ul li{float:left;padding:14px 10px;font-size:17px;border-right:1px solid gray;background:rgba(0, 0, 0, 0.82);border-bottom:0;width:25%;text-align:center;height:50px;font-size:20px;line-height:22px}
+    .sticky ul li:last-child{border:0}
+    .sticky ul li:hover:after{content:""}
+    .sticky-open{right:0;width:0}
+    .sticky-open.sticky-open-right{width:100%;height:100%;right:0;background:rgba(0, 0, 0, 0.9);position:fixed;top:0;z-index:9999999;transition:all ease-in .5s}
+    .sticky-open li.right.support-open,
+    .sticky-open ul li.right.download-open,
+    .sticky-open ul li.right.corporate-open{position:static;top:0;width:90%;margin:10% auto;height:300px;padding:25px;background:#fff;color:#000}
+    li.new-joinee-open.right,
+    li.favlinks-open.right{background:#fff;width:90%;margin:20px auto 0;color:#000;height:460px;overflow:hidden;overflow:scroll}
+    a .col-sm-2{color:#020202}
+    li.new-joinee-open .col-sm-2{display:block;width:100%}
+    li.new-joinee-open span,
+    li.favlinks-open span{display:inline-block;vertical-align:middle;padding:5px}
+    li.new-joinee-open .col-sm-2,
+    li.favlinks-open .col-sm-2{display:block;width:100%;min-height:0;text-align:left;background:#f3f3f3;margin-bottom:3px;font-size:14px}
+    .sticky-open{top:0}
+    li.new-joinee-open{top:0}
+    .sticky-open li.right.support-open,
+    .sticky-open ul li.right.download-open,
+    .sticky-open ul li.right.corporate-open{right:0;position:relative}
+    .sticky-open li.right.support-open{top:0}
+    .sticky-open ul li.right.download-open{top:0}
+    .slide .button-div{left:36%}
+    .profile-dot i{padding:7px 20px}
+    .slide h1{font-size:40px}
+    .mn-leadership-inner-block h4{font-size:16px;padding:0}
+    #owl-birthday .owl-prev{left:-10px}
+    #owl-birthday .owl-next{right:-10px}
+    .mn-birthday h4{font-size:30px}
+    .mn-birthday-inner h4{font-size:13px}
+    .sticky-open li.support-open,
+    .sticky-open ul li.download-open,
+    .sticky-open ul li.corporate-open{right:0;position:absolute}
+    .sticky-open li a{color:#000}
+    .advanced-slider{height:30vh!important;margin:0}
+    .sticky-open ul li.new-joinee-open.right,
+    .sticky-open ul li.favlinks-open.right{right:20px;padding:10px 10px 30px}
+    a.btn.btn-default{display:block;background:#000;color:#fff}
+    .mn-community-textblock{border-bottom:1px dotted #ccc;margin:5px;color:#000}
+    div#owl-leadership p{padding:0 10%}
+    footer{margin-bottom:12.36%}
+    .sticky ul li.support{padding:7px!important}
+    img.feedbackIcon{width:32%}
+    .alerts .bx-wrapper{width:100%}
+    .mn-recentnews-textblock{padding:0 10px}
+    .drawer--left .drawer-hamburger{padding:24px 15px}
+    .mn-logo img{margin:8px 5px 0}
+    .mn-global-search.pull-left{margin-right:8px}
+    .sticky ul li.favlinks{padding:14px 11px}
+    li.favlinks-open.right .col-sm-2{width:100%;min-height:50px;text-align:left}
+    li.favlinks-open.right .col-sm-2 img{background:#2b2b2b;padding:3px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0 10px!important;display:inline-block!important}
+    .mn-community,
+    .poll.col-sm-6{width:100%}
+    .mn-community-textblock h5{width:62%}
+    .poll.col-sm-6{margin-bottom:10px}
+    ul.user-details{right:0;left:0}
+    .mn-global-search.pull-left.open{width:57%}
+    .mn-leadership-inner-block h4{font-size:16px;padding:0 9%}
+    div.mn-header row > div.container{overflow:scroll}
+    div#suiteBarDelta,
+    div#s4-ribbonrow{display:none}
+    div#Shalimar{margin-top:-10px}
+    }
+    @media screen and (max-width:360px){.sticky ul li{font-size:25px}
+    .mn-header .container{width:100%;}
+    .slide .button-div{left:32%}
+    .mn-logo img{margin:6px 9px 0;width:56px}
+    .drawer--left .drawer-hamburger{padding:24px 16px}
+    .mn-user-box.dropdown{margin:6px 0 0;font-size:12px;padding:5px 10px}
+    .icon-male-user{font-size:15px;padding:0 0 0 5px}
+    .appreciation .col-sm-5{padding:0}
+    .mn-birthday h4{font-size:30px;margin:20px 0}
+    .mn-birthday-inner h4{font-size:12px;margin:14px 0 6px}
+    #owl-birthday .owl-prev{left:-8px}
+    #owl-birthday .owl-next{right:-8px}
+    .mn-birthday-inner{min-height:170px}
+    footer{padding:10px 0;font-size:12px}
+    .mn-header-icons{right:0;top:100%;right:0;top:99%;padding:0;width:46px;text-align:center;}
+    .mn-header-icons li:last-child{margin:0;}
+    .advanced-slider{height:30vh!important}
+    }
+    @media screen and (max-width:320px){.drawer--left .drawer-hamburger{padding:24px 15px}
+    .mn-logo img{margin:8px 0px 0 9px;width:48px}
+    .mn-user-box.dropdown{padding:3px 9px;margin:7px 0 0}
+    a .col-sm-2{color:#000}
+    li.new-joinee-open .col-sm-2{border-top:1px solid rgba(43, 41, 41, 0.18);display:inline-block}
+    div#divpraise1 p{padding:0}
+    button.icon-magnifier{padding:15px 10px 16px}
+    div#recent-news .owl-prev,
+    div#recent-news .owl-next{top:8px}
+    div#recent-news .owl-prev{right:16%}
+    .appreciation a{font-size:10px}
+    .announcement h3 span,
+    .event h3 span,
+    .mn-leadership h3 span,
+    .innerpage-right h3 span{padding-right:10px}
+    .mn-leadership-inner-block h4,
+    .announcement h3 a,
+    .event h3 a,
+    .mn-leadership h3 a,
+    .tis h3 a,
+    .innerpage-right h3 a,
+    .mn-recentnews h3 a,
+    div#community-posts h3 a,
+    .poll h3{font-size:16px}
+    }
